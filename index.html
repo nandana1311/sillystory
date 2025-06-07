@@ -6,11 +6,15 @@
   <meta name="viewport" content="width=device-width" />
 
   <title>Silly story generator</title>
+</head>
+
 <body>
   <h1>Silly story generator</h1>
-  <label>ENTER CHARACTER NAME</label>
-  <p>Click the button to generate a silly story.</p>    
-
-</body>
-</HEAD>
-</html>
+  <label for="characterName">ENTER CHARACTER NAME</label>
+  <input type="text" id="characterName" />
+  <br>
+  <label for="place">ENTER PLACE</label>
+  <input type="text" id="place" />
+  <p>Click the button to generate a silly story.</p>
+  <button>Generate</button>
+  <p id="story"></p>
